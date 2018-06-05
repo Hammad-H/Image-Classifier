@@ -10,16 +10,16 @@ from keras.models import load_model
 from keras.layers import Conv2D
 
 #import MaxPooling2D to construct the max pooling layer
-from kera.models import MaxPooling2D
+from keras.layers import MaxPooling2D
 
 #import Flatten to flatten the input before sending it to fully connected layer
-from keras.models import Flatten
+from keras.layers import Flatten
 
 #import Dense to construct the fully connected layer
-from keras.models import Dense
+from keras.layers import Dense
 
 #import Dropout as a regularization technique to prevent overfitting
-from keras.models import Dropout
+from keras.layers import Dropout
 
 #import ImageDataGenerator to initialize the data generator
 from keras.preprocessing.image import ImageDataGenerator
